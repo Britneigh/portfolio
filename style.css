@@ -1,9 +1,9 @@
 .row {
-    background-color: lightblue;
+    background-color:rgb(31, 31, 31);
 }
 
 .col {
-    color: white;
+    color:white;
     font-weight: bold;
     align-items: flex-end;
     margin: 20px;
@@ -26,7 +26,9 @@
     position: relative;
     left: 140px;
     bottom: 430px;
-    background-color: rgba(177, 225, 241, .7);
+    background-color: rgba(31, 31, 31);
+    color: white;
+    text-shadow: 2px 2px 3px rgb(253, 83, 239);
     padding: 16px;
     margin: 650px;
 }
@@ -58,7 +60,7 @@ justify-content: space-evenly;
 }
 
 .item { 
-background-color: rgb(173, 216, 230, .3);
+background-color: rgba(252, 252, 252, 0.3);
 border-radius: 50px 50px 50px 50px;
 margin: 80px;
 padding: 200px;
@@ -74,4 +76,9 @@ padding-bottom: 450px;
     font-weight: bold;
     font-size: 30px;
     text-decoration: underline;
+    color: white;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
 }

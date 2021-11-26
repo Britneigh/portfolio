@@ -61,6 +61,7 @@ justify-content: space-evenly;
 .item { 
 background-color: rgba(252, 252, 252, 0.3);
 border-radius: 50px 50px 50px 50px;
+border: solid 5px rgb(253, 83, 239);
 margin: 80px;
 padding: 200px;
 padding-bottom: 450px;
@@ -106,7 +107,7 @@ body {
 
 #project3 {
     cursor: pointer;
-    background-image: url("Images/Project 3 preview.JPG");
+    background-image: url("Images/Project 3 preview.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

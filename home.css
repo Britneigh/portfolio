@@ -3,10 +3,26 @@
 }
 
 .col {
+    cursor: pointer;
     color:white;
     font-weight: bold;
     align-items: flex-end;
     margin: 20px;
+    text-align: center;
+}
+
+.col::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background:rgb(253, 83, 239);
+    display: block;
+    margin: auto;
+    transition: 0.25s;
+}
+
+.col:hover:after {
+    width: 100%;
 }
 
 .pfp {
@@ -45,7 +61,7 @@
 position: absolute;
 background-color: rgb(255, 255, 255, .3);
 left: 890px;
-bottom: 437px;
+bottom: 435px;
 width: 503px;
 padding: 20px;
 padding-left: 62px;

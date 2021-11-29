@@ -40,10 +40,6 @@ h1 {
     position: absolute;
 }
 
-#about-me {
-    color:rgb(253, 83, 239);
-}
-
 .aboutPanel {
     width: 900px;
     height: 50px;
@@ -112,3 +108,77 @@ h1 {
     font-size: 12px;
     margin: 10px;
 }
+
+/* CONTACT SECTION CSS */
+
+#contact-size {
+width: 100%;
+height: 1300px;
+
+}
+
+#contact-area {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 488px;
+    background-color: rgb(31, 31, 31);
+    z-index: -2
+}
+
+#contact-title {
+    text-decoration: underline;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+.contact-info {
+    color: rgb(253, 83, 239);
+    background-color: rgb(68, 68, 68);
+    position: relative;
+    text-align: right;
+    font-size: 25px;
+}
+
+#email {
+    left: 36.9%;
+    top: 39.4%;
+}
+
+#tel {
+    display: inline-block;
+    color:rgb(253, 83, 239);
+    position: relative;
+    left: 41.3%;
+    top: 45%;
+    font-size: 26px;
+    width: 25%;
+}
+
+.contact-box {
+    background-color: white;
+    position: relative;
+    font-size: 22px;
+    padding: 3px;
+    z-index: -1
+}
+
+#email-info {
+    left: 36.5%;
+    top: 39%;
+}
+
+
+#tel-info {
+    display: inline-block;
+    color:rgb(253, 83, 239);
+    position: relative;
+    left: 18.2%;
+    top: 45%;
+    font-size: 24px;
+}
+
+html { 
+    scroll-behavior: smooth; 
+} 

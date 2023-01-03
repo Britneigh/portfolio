@@ -27,36 +27,42 @@
 h1 {
     color: white;
     position: relative;
-    left: 3%;
     text-shadow: 2px 2px 3px rgb(253, 83, 239);
+    margin-left: 4%;
 }
 
 .pfp {
-    width: 600px;
-    height: 700px;
+    width: 30%;
+    height: auto;
     border: solid 8px; 
-    left: 3%;
-    top: 20%;
     position: absolute;
+    margin: 2.5%; /*Detach from the nav bar */
 }
 
 .aboutPanel {
-    width: 900px;
-    height: 50px;
-    position: absolute;
-    left: 40%;
-    top: 20%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    left: -2%;
+    z-index: 2;
+    margin: 2%;
+    margin-top: -8%;
     background-color: rgb(31, 31, 31);
 }
 
 .aboutPara {
-    width: 900px;
-    height: 450px;
-    position: absolute;
-    left: 40%;
-    top: 25.3%;
+    width: 47.3%;
+    height: 45%;
+    display: inline-block;
+    position: relative;
+    left: 31.8%;
     background-color: rgb(226, 226, 226);
-    padding: 26px;
+    margin: 8.2%; /*Detach from the nav bar */
+}
+
+#aboutmeText {
+    padding: 3%;
 }
 
 .hobbies {
@@ -71,66 +77,69 @@ h1 {
     flex: auto;
     background-color: white;
     box-shadow: 5px 5px 5px thistle;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
+    width: 20%;
+    height: auto;
+    margin: 2%;
 }
 
 #hobbies1 {
-    background-image: url("Images/hobbies1.png");
-    background-repeat: no-repeat;
-    background-size: 85px;
-    background-position-x: center;
-    background-position-y: 12%;
+    position: relative;
+    width: 46%;
+    height: auto;
+    left: 27%;
+    top: 10%;
 }
 
 #hobbies2 {
-    background-image: url("Images/hobbies2.png");
-    background-repeat: no-repeat;
-    background-size: 80px;
-    background-position-x: center;
-    background-position-y: 15%;
+    position: relative;
+    width: 35%;
+    height: auto;
+    left: 35%;
+    top: 10%;
 }
 
 #hobbies3 {
-    background-image: url("Images/hobbies3.png");
-    background-repeat: no-repeat;
-    background-size: 105px;
-    background-position-x: center;
-    background-position-y: -2%;
+    position: relative;
+    width: 35%;
+    height: auto;
+    left: 32%;
+    top: 10%;
 }
 
 .miniTexts {
     position: relative;
-    top: 50%;
     font-weight: bold;
     text-align: center;
-    font-size: 12px;
-    margin: 10px;
+    font-size: 0.7vw;
+    padding-top: 8%;
+    margin: 5%;
 }
 
 /* CONTACT SECTION CSS */
 
-#contact-size {
-width: 100%;
-height: 1300px;
-
-}
-
 #contact-area {
-    position: absolute;
-    top: 100%;
+    position: relative;
     width: 100%;
     height: 488px;
+    margin-top: 7%;
     background-color: rgb(31, 31, 31);
     z-index: -2
 }
 
 #contact-title {
+    display: block;
     text-decoration: underline;
-    position: absolute;
-    left: 40%;
-    top: 20%;
+    position: relative;
+    left: 35%;
+    padding: 5%;
+}
+
+.email-bind {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    left: 40.8%;
 }
 
 .contact-info {
@@ -138,45 +147,30 @@ height: 1300px;
     background-color: rgb(68, 68, 68);
     position: relative;
     text-align: right;
-    font-size: 25px;
+    font-size: 150%;
 }
 
-#email {
-    left: 36.9%;
-    top: 39.4%;
-}
 
-#tel {
-    display: inline-block;
-    color:rgb(253, 83, 239);
-    position: relative;
-    left: 41.3%;
-    top: 45%;
-    font-size: 26px;
-    width: 25%;
+#email-info {
+right: 0.6%;
 }
 
 .contact-box {
     background-color: white;
     position: relative;
-    font-size: 22px;
-    padding: 3px;
+    font-size: 150%;
     z-index: -1
 }
 
-#email-info {
-    left: 36.5%;
-    top: 39%;
-}
 
-
-#tel-info {
-    display: inline-block;
+#tel {
     color:rgb(253, 83, 239);
     position: relative;
-    left: 18.2%;
-    top: 45%;
-    font-size: 24px;
+    left: 44.7%;
+    font-size: 165%;
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
 }
 
 html { 

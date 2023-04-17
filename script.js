@@ -5,7 +5,7 @@ function preview1() {
 }
 
 function preview2() {
-    window.open("https://britneigh.github.io/myDogsTrust/");
+    window.open("https://britneigh.github.io/DogsTrust/");
 }
 
 function preview3() {

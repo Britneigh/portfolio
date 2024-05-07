@@ -103,7 +103,7 @@ body {
     max-width: 20%;
     max-height: auto;
     border-radius: 50%;
-    border: solid rgb(253, 83, 239) 6px;
+    border: solid rgb(253, 83, 239) 0.5rem;
     left: 60%;
     top: 25%;
     position: absolute;

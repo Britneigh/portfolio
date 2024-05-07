@@ -1,8 +1,3 @@
-.container-fluid {
-    display: grid;
-    grid-template-rows: 1fr;
-}
-
 .nav {
     background-color:rgb(31, 31, 31);
 }
@@ -100,22 +95,24 @@ body {
 }
 
 .pfp{
+    display: flex;
     max-width: 20%;
     max-height: auto;
     border-radius: 50%;
     border: solid rgb(253, 83, 239) 0.5rem;
     left: 60%;
-    top: 25%;
+    top: 20%;
     position: absolute;
     z-index: 1;
 }
 
 .bio {
+    position: absolute;
+    top: 27%;
+    left: 10%;
     color: white;
     font-size: 2rem;
     padding: 3rem;
-    padding-top: 20rem;
-    padding-left: 10rem;
 }    
 
 .background {
@@ -129,9 +126,9 @@ body {
 }
 
 .bio-container {
-    display: flex;
-    flex-direction: row;
-    width: auto;
+    display: inline-block;
+    position: relative;
+    width: 100%;
     height: 53rem;
     font-family: Tahoma;
     background-color: rgb(71, 71, 71);
@@ -180,18 +177,6 @@ height: 20rem;
     .container {
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
-    }
-    .item {
-        width: 10rem;
-        height: 20rem;
-    }
-    .bio-container {
-        flex-direction: column;
-    }
-    .pfp {
-        top: 10%;
-        left: 70%;
     }
   }
 

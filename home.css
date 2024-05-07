@@ -37,6 +37,7 @@
     margin: 1.05%;
     margin-right: 5%;
     position: relative;
+    z-index: 3;
 }
 
 #lang-menu:hover ul {
@@ -90,6 +91,7 @@ background-color: #131313;
 body {
     width: 99.1vw;
     height: 200vh;
+    font-family: Arial;
 }
 
 .pfp{
@@ -97,22 +99,21 @@ body {
     max-width: 20%;
     max-height: auto;
     border-radius: 50%;
-    border: solid 9px;
-    left: 31%;
-    top: 24%;
+    border: solid rgb(253, 83, 239) 6px;
+    left: 60%;
+    top: 20%;
     position: absolute;
     z-index: 1;
 }
 
-.group-bio {
-display: inline-block;
-position: absolute;
-left: 47%;
-top: 34.8%;
-width: 26.2%;
-height: auto;
-}
-
+.bio {
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    color: white;
+    font-size: 2rem;
+    padding: 3rem;
+}    
 
 .background {
     display: inline;
@@ -128,23 +129,14 @@ height: auto;
     display: inline-block;
     position: relative;
     width: 100%;
-    height: auto;
+    height: 53rem;
+    font-family: Tahoma;
+    background-color: rgb(71, 71, 71);
 }
 
 .name {
-    text-align: center;
-    background-color: rgba(31, 31, 31);
-    color: white;
-    text-shadow: 2px 2px 3px rgb(253, 83, 239);
-    padding: 2%;
-}
-
-.bio {
-background-color: rgb(255, 255, 255, .3);
-position: relative;
-left:8%;
-text-align: center;
-padding: 1%;
+    color: rgb(253, 83, 239);
+    text-shadow: 2px 2px 3px black;
 }
 
 .projects {
@@ -153,29 +145,32 @@ padding: 1%;
     text-align: center;
     width: 100%;
     font-weight: bold;
-    font-size: 30px;
-    text-decoration: underline;
+    font-size: 2.5rem;
+    padding: 2%;
     color: white;
+}
+
+.projects-area {
+    height: auto;
+    width: 100%;
 }
 
 .container {
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
-position: relative;
-width: 100%;
-height: auto;
+justify-content: space-around;
+align-items: flex-start;
+flex-wrap: wrap;
 }
 
 .item { 
+position: relative;
 background-color: rgba(252, 252, 252, 0.3);
-border-radius: 50px 50px 50px 50px;
 border: solid 5px rgb(253, 83, 239);
-margin: 7.5%;
-padding: 15%;
-padding-bottom: 36%;
-width: 100%;
-height: auto;
+box-shadow: 0 0 12px rgb(253, 83, 239);
+margin: 1%;
+width: 30%;
+height: 20rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -188,12 +183,14 @@ height: auto;
 body {
     background-color: rgb(31, 31, 31);
     box-sizing: border-box; /* Will not increase the size of div if padding is added */
+    margin: 0;
 }
 
 #project1 {
     cursor: pointer;
     background-image: url("Images/Project 1 preview.JPG");
-    background-size: cover;
+    background-size: 32rem 20rem;
+    background-repeat: no-repeat;
     background-position: center;
     /* background-image: url("Images/pastel-2.jpg");
     background-repeat: no-repeat;
@@ -202,7 +199,7 @@ body {
 
 #project2 {
     cursor: pointer;
-    background-image: url("Images/Project 2 preview.JPG");
+    background-image: url("Images/Recipes Blog preview.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -216,11 +213,36 @@ body {
     cursor: pointer;
     background-image: url("Images/Project 3 preview.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-position-y: bottom;
+    background-size: cover;
     /* background-image: url("Images/pastel-2.jpg");
     background-repeat: no-repeat;
     background-size: cover; */
+}
+
+#project4 {
+    cursor: pointer;
+    background-image: url("Images/Digital clock preview.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 20rem;
+}
+
+#project5 {
+    cursor: pointer;
+    background-image: url("Images/Colour buttons preview.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#project6 {
+    cursor: pointer;
+    background-image: url("Images/rps game preview.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h4 {

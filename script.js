@@ -4,7 +4,7 @@ function preview1() {
     window.open("https://britneigh.github.io/vertical-slider/");
 }
 function preview2() {
-    window.open("https://britneigh.github.io/DogsTrust/");
+    window.open("https://britneigh.github.io/recipes-blog-js/");
 }
 
 function preview3() {

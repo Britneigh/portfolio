@@ -18,9 +18,9 @@ document.querySelector("#German").onclick = function (){
     aboutMe.innerText = "Über mich";
     contact.innerText = "Kontakt";
     title.innerText = "Über mich";
-    aboutmeText.innerText = "Ich heiße Britney, komme aus Großbritannien und wohne jetzt mit meinem Mann in Deutschland. Zu meinen Hobbys zählen Kunst und Technik, welche mein Interesse in Web-/Front-End-Entwicklung erklären. Ich erstelle sowie gestalte gerne Webseiten und sorge dafür, dass diese für die beste Benutzererfahrung richtig funktionieren. Unten sind einige meine Lieblingssachen außer programmieren:"
+    aboutmeText.innerText = "Ich heiße Britney, komme aus Großbritannien und wohne jetzt in Leeds. Zu meinen Hobbys zählen Kunst und Technik, welche mein Interesse in Web-/Front-End-Entwicklung erklären. Ich erstelle sowie gestalte gerne Webseiten und sorge dafür, dass diese für die beste Benutzererfahrung richtig funktionieren. Unten sind einige meine Lieblingssachen außer programmieren:"
     hob1.innerText = "Gaming ist meine Hauptunterhaltungsform und trainiert auch meine Problemlösungs-, Kommunikations- und Teamfähigkeit.";
-    hob2.innerText = "Digitale Kunst ist der Ort für meine Kreativität. Ich nutze mein Kunstwissen, um visuell ansprechende Websitseiten zu erstellen. Manchmal erstelle ich auch Benutzeroberflächen.";
+    hob2.innerText = "Digitale Kunst ist der Ort für meine Kreativität. Ich nutze mein Kunstwissen, um visuell ansprechende Websitseiten zu erstellen. UI/UX-Kenntnisse sind auch beim Design von Apps/Websites wichtig.";
     hob3.innerText = "Wenn mich etwas inspiriert, schreibe ich kreative Geschichten online. Ironischerweise, hat mich das auf den Weg zum programmieren gebracht (Episode Interactive).";
     contactInfo.innerText = "KONTAKT INFO"
 }
@@ -31,9 +31,9 @@ document.querySelector("#English").onclick = function (){
     aboutMe.innerText = "About Me";
     contact.innerText = "Contact";
     title.innerText = "About Me";
-    aboutmeText.innerText = "My name is Britney, currently living in Germany. As someone who has hobbies revolving around both Art and Tech, my interest is in Web/Front-end development. I like creating websites, designing them and of course, making sure they function properly for the best user-experience. Below are some of my favourite things to do aside from coding:";
+    aboutmeText.innerText = "My name is Britney and I am currently living in Leeds. As someone who has hobbies revolving around both Art and Tech, my interest lies in Web/Front-end development. I like the idea of creating websites, making sure they look good as well as functioning properly for the best user-experience. Below are some of my favourite things to do aside from coding:";
     hob1.innerText = "Gaming is my main form of entertainment and also trains my problem solving, communication & teamwork skill.";
-    hob2.innerText = "Digital art is where I unleash my creativity. I use my art knowledge to create visually appealing websites. Sometimes I also create UI assets.";
+    hob2.innerText = "Digital art is where I unleash my creativity. I use my art knowledge to create visually appealing websites. Having UI/UX knowledge is also important when designing apps/websites.";
     hob3.innerText = "When inspiration strikes, I write creative stories online. Ironically, this lead me to the path of coding (Episode Interactive).";
     contactInfo.innerText = "CONTACT INFO"
 }
